@@ -1,2 +1,70 @@
 @charset "UTF-8";
 /* 回答はここから */
+
+p {
+  font-size: 16px;
+}
+
+.q1-box {
+  display: inline-block;
+  width: 200px;
+  padding:20px 0;
+  text-align: center;
+  background: #fff;
+}
+
+.q1-box p {
+  display: inline-block;
+  padding: 10px;
+  background: #a4b3e9;
+}
+
+.mtext {
+  width: 90px;
+  margin: 0 auto;
+}
+
+.table-box {
+  display: table;
+  text-align: center;
+}
+
+.tbox {
+  display: table-cell;
+  vertical-align: middle;
+  
+}
+
+.ttext {
+  display: inline-block;
+  padding: 10px;
+  background: #fff;
+}
+
+.flex-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-box p {
+  padding: 10px;
+  background: #fff;
+}
+
+.container {
+  position: relative;
+}
+
+.pbox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.pbox p {
+  display: inline-block;
+  padding: 10px;
+  background: #a4b3e9;
+}
