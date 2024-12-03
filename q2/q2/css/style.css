@@ -5,21 +5,16 @@ ul {
   justify-content: center;
   list-style: none;
   display:flex;
-  //gap: 60px;
-  //padding-top: 30px;/*answerの位置と合わせるために設定*/
+  gap: 60px;
+  padding-top: 30px;/*answerの位置と合わせるために設定*/
 }
 
 li {
   width: 200px;
-  margin: 30px 60px 0 0;
   align-items: stretch;
   padding: 10px;
   outline: 10px solid #655;
   box-shadow: 0 0 0 6px #655;
   border-radius: 13px;
   background: #d2b48c;
-}
-
-.card3 {
-  margin-right: 0;
 }
